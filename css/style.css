@@ -12,6 +12,10 @@
     padding: 0 2rem 0 5rem;
 }
 
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 30%;
+}
+
 .header_area .main-menu .navbar{
     padding: 1rem 20rem;
 }
@@ -77,6 +81,7 @@
 /* Start About Area */
 .site-main .about-area{
     padding: 8rem 5rem;
+    scroll-margin-top: 100px;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -94,6 +99,7 @@
 .site-main .brand-area{
     padding: 1rem 20rem;
     margin-bottom: 4rem;
+    scroll-margin-top: 250px;
 }
 
 .site-main .brand-area .first-row .col-lg-4{
@@ -200,6 +206,7 @@
 
 .site-main .project-area{
     padding: 4rem 0;
+    scroll-margin-top: 100px;
 }
 
 .site-main .project-area .button-group button{
@@ -268,6 +275,7 @@
     background: url(../img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
+    scroll-margin-top: 200px;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
@@ -319,6 +327,6 @@ footer.footer-area .social a > i{
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: orange;
 }
     /* End Footer Area */
